@@ -1,0 +1,35 @@
+frontend:
+  avatarPath:
+    default: /avatars/default-avatar.jpg
+
+spring:
+  profiles:
+    active: dev # 切换环境配置
+  application:
+    name: vaccine-safety-confidence
+  mybatis-plus:
+    configuration:
+      # MyBatis 配置
+      map-underscore-to-camel-case: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 5MB
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: 90milesofficial@gmail.com
+    password: iijp cuuw pupk bodn
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+#  国际化（i18n）消息资源文件配置（如需要）
+#  messages:
+#    basename: i18n/messages # 消息资源文件应位于 classpath:/i18n/ 目录下，文件名的前缀是 messages。
