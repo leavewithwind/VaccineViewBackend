@@ -41,7 +41,7 @@ VaccineView 后端服务有着可扩展、安全、高效的设计，核心功�
 1. **使用 Spring Boot 开发 API**
     - 采用**RESTful API 架构**，确保模块化和可维护性。
     - 实现**异常处理和输入校验**，防止 API 滥用。
-    - 使用**Swagger (OpenAPI)**生成 API 文档，便于前端团队集成。
+    - 使用**OPENAPI3 (Swagger3)** 生成 API 文档，便于前端团队集成。
 2. **数据库优化**
     - 设计**规范化数据库模式**，使用**索引优化查询性能**。
     - 采用**MyBatis-Plus**进行 ORM 数据访问，提高 CRUD 操作效率。
